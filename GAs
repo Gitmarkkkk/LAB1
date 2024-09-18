@@ -1,0 +1,30 @@
+
+package gasapp;
+import java.util.Scanner;
+
+public class Gasapp {
+
+
+    public static void main(String[] args) {
+    Scanner cpd = new Scanner (System.in);
+    double totmiles;
+    double costpergal;
+    double meanmg;
+    double park;
+    double toll;
+    double total;
+           
+    System.out.println("Enter Total Miles Driven: ");
+    totmiles=cpd.nextDouble();
+    System.out.println("Enter Average Cost per Gallon of Fuel: ");
+    costpergal=cpd.nextDouble();
+    System.out.println("Enter Average miles per Gallon: ");
+    meanmg=cpd.nextDouble();
+    System.out.println("Enter Parking fees per Day: ");
+    park=cpd.nextDouble();
+    System.out.println("Enter Tolls per Day: ");
+    toll=cpd.nextDouble();
+    total = totmiles/(costpergal*
+    }
+    
+}
